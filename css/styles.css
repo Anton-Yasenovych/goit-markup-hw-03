@@ -66,6 +66,7 @@ body {
   clip: rect(0 0 0 0);
 }
 .main-first-heading {
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -90,6 +91,7 @@ body {
   color: var(--main-text-color);
 }
 .title-p {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -164,9 +166,10 @@ color: var(--main-title-color);
   background-color: var(--backgroun-footer-color);
 }
 .footer-item-contact {
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--rgba-color);
+font-style: normal;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--rgba-color);
 }
 .map {
   font-style: normal;
