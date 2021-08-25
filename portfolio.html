@@ -18,132 +18,162 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <!--верхний-блок-логотип-->
-        <nav class="navigator">
-            <a href="./index.html" class="logo logo-header link"><span class="accent">Web</span>Studio
-            </a>
-            <ul class="header-nav-menu">
-                <li class="header-item list"><a href="./index.html" class="header-nav-href menu list link">Студия</a>
+        <div class="container">
+            <nav class="navigator">
+                <a href="./index.html" class="logo logo-header link"><span class="accent">Web</span>Studio
+                </a>
+                <ul class="header-nav-menu">
+                    <li class="header-item list"><a href="./index.html"
+                            class="header-nav-href menu list link">Студия</a>
+                    </li>
+                    <li class="header-item list"><a href="./portfolio.html"
+                            class="header-nav-href menu list link current">Портфолио</a>
+                    </li>
+                    <li class="header-item list"><a href="" class="header-nav-href menu list link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="header-contacts header-lists ">
+                <li class="header-email list"><a href=" mailto:exampe@gmai.com"
+                        class="header-href contact list link current">exampe@gmai.com</a></li>
+                <li class="header-tel list"><a href="+380687131111"
+                        class="header-href contact list link">+380687131111</a>
                 </li>
-                <li class="header-item list"><a href="./portfolio.html"
-                        class="header-nav-href menu list link current">Портфолио</a>
-                </li>
-                <li class="header-item list"><a href="" class="header-nav-href menu list link">Контакты</a></li>
             </ul>
-        </nav>
-        <ul class="header-contacts header-lists ">
-            <li class="header-email list"><a href=" mailto:exampe@gmai.com"
-                    class="header-href contact list link">exampe@gmai.com</a></li>
-            <li class="header-tel list"><a href="+380687131111" class="header-href contact list link">+380687131111</a>
-            </li>
-        </ul>
+        </div>
+        <hr class="line-header">
     </header>
     <!--Portfolio-->
     <main>
         <section class="buttons-list-portfolio">
-            <h1 class="visually-hidden">Наши проекты</h1>
-            <!--buttons-->
-            <uL class="portf-buttons">
-                <li class="list"><button type="button" class="portf-btn btn prtf-1 current">Все</button></li>
-                <li class="list"><button type="button" class="portf-btn prtf-2 btn">Веб-сайты</button></li>
-                <li class="list"><button type="button" class="portf-btn prtf-3 btn">Приложения</button></li>
-                <li class="list"><button type="button" class="portf-btn prtf-4 btn">Дизайн</button></li>
-                <li class="list"><button type="button" class="portf-btn prtf-5 btn">Маркетинг</button></li>
-            </uL>
-            <!--gallery-->
-            <ul class="gallery-list list link">
-                <li class="portf-item"><a href="" class="list link gallery">
-                        <img src="./images/portfolio/img-1-min.jpg"
-                            alt="Ноутбук изображающий на своем дисплее три визитки сотрудников компании" width="370" />
-                        <h2 class="gallery link">Технокряк</h2>
-                        <p class="p-gallery ">Веб-сайт</p>
-                    </a></li>
-                <li class="portf-item"><a href="" class="list link">
-                        <img src="./images/portfolio/img-2-min.jpg" alt="Два баскетболиста в момент перед броском мяча"
-                            width="370" />
-                        <h2 class="gallery link">Постер New Orlean vs Golden Star
-                        </h2>
-                        <p class="p-gallery">Дизайн</p>
-                    </a></li>
-                <li class="portf-item"><a href="" class="list link">
-                        <img src="./images/portfolio/img-3-min.jpg" alt="Логотип ресторана Seafood на фоне рыбы"
-                            width="370" />
-                        <h2 class="gallery link">Ресторан Seafood
-                        </h2>
-                        <p class="p-gallery">Приложение</p>
-                    </a></li>
-                <li class="portf-item"><a href="" class="list link">
-                        <img src="./images/portfolio/img-4-min.jpg"
-                            alt="Наушники полноразмерные крупным планом на светло сером фоне" width="370" />
-                        <h2 class="gallery link">Проект Prime
-                        </h2>
-                        <p class="p-gallery">Маркетинг</p>
-                    </a></li>
-                <li class="portf-item"><a href="" class="list link">
-                        <img src="./images/portfolio/img-5-min.jpg"
-                            alt="Две  разных по расмерам картонные коробки кремового и белого цветов на светло сером фоне"
-                            width="370" />
-                        <h2 class="gallery link">Проект Boxes
-                        </h2>
-                        <p class="p-gallery">Приложение</p>
-                    </a></li>
-                <li class="portf-item"><a href="" class="list link">
-                        <img src="./images/portfolio/img-6-min.jpg"
-                            alt="Imac with tittle on dispay Inspiration has no Borders" width="370" />
-                        <h2 class="gallery link">
-                            Inspiration has no Borders
-                        </h2>
-                        <p class="p-gallery">Веб-сайт</p>
-                    </a></li>
-                <li class="portf-item"><a href="" class="list link">
-                        <img src="./images/portfolio/img-7-min.jpg"
-                            alt="Развернутая книга крупным планом с название страницы Limited Edition " width="370" />
-                        <h2 class="gallery link">Издание Limited Edition
-                        </h2>
-                        <p class="p-gallery">Дизайн</p>
-                    </a></li>
-                <li class="portf-item"><a href="" class="list link">
-                        <img src="./images/portfolio/img-8-min.jpg"
-                            alt="белая картонная бирка с надписью label Tag крупным планом с бесцветной нитью "
-                            width="370" />
-                        <h2 class="gallery link">Проект LAB
-                        </h2>
-                        <p class="p-gallery">Маркетинг</p>
-                    </a></li>
-                <li class="portf-item"><a href="" class="list link">
-                        <img src="./images/portfolio/img-9-min.jpg"
-                            alt="Ноутбук с презентацией Growing Business на дисплее и две кисти рук на клавиатуре"
-                            width="370" />
-                        <h2 class="gallery link">
-                            Growing Business
-                        </h2>
-                        <p class="p-gallery">Приложение</p>
-                    </a></li>
-            </ul>
-
-
+            <div class="containers">
+                <h1 class="visually-hidden">Наши проекты</h1>
+                <!--buttons-->
+                <uL class="portf-buttons controls">
+                    <li class="list"><button type="button" class="portf-btn prtf-1 btn default">Все</button></li>
+                    <li class="list"><button type="button" class="portf-btn prtf-2 btn">Веб-сайты</button></li>
+                    <li class="list"><button type="button" class="portf-btn prtf-3 btn">Приложения</button></li>
+                    <li class="list"><button type="button" class="portf-btn prtf-4 btn">Дизайн</button></li>
+                    <li class="list"><button type="button" class="portf-btn prtf-5 btn">Маркетинг</button></li>
+                </uL>
+                <!--gallery-->
+                <ul class="gallery-group-cards list link">
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-1-min.jpg"
+                                alt="Ноутбук изображающий на своем дисплее три визитки сотрудников компании"
+                                width="370" /></div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">Технокряк</h2>
+                            <p class="p-gallery ">Веб-сайт</p>
+                        </div>
+                    </li>
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-2-min.jpg"
+                                alt="Два баскетболиста в момент перед броском мяча" width="370" /></div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">Постер New Orlean vs Golden Star
+                            </h2>
+                            <p class="p-gallery">Дизайн</p>
+                        </div>
+                    </li>
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-3-min.jpg"
+                                alt="Логотип ресторана Seafood на фоне рыбы" width="370" /></div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">Ресторан Seafood
+                            </h2>
+                            <p class="p-gallery">Приложение</p>
+                        </div>
+                    </li>
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-4-min.jpg"
+                                alt="Наушники полноразмерные крупным планом на светло сером фоне" width="370" />
+                        </div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">Проект Prime
+                            </h2>
+                            <p class="p-gallery">Маркетинг</p>
+                        </div>
+                    </li>
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-5-min.jpg"
+                                alt="Две  разных по расмерам картонные коробки кремового и белого цветов на светло сером фоне"
+                                width="370" />
+                        </div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">Проект Boxes
+                            </h2>
+                            <p class="p-gallery">Приложение</p>
+                        </div>
+                    </li>
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-6-min.jpg"
+                                alt="Imac with tittle on dispay Inspiration has no Borders" width="370" /></div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">
+                                Inspiration has no Borders
+                            </h2>
+                            <p class="p-gallery">Веб-сайт</p>
+                        </div>
+                    </li>
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-7-min.jpg"
+                                alt="Развернутая книга крупным планом с название страницы Limited Edition " /></div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">Издание Limited Edition
+                            </h2>
+                            <p class="p-gallery">Дизайн</p>
+                        </div>
+                    </li>
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-8-min.jpg"
+                                alt="белая картонная бирка с надписью label Tag крупным планом с бесцветной нитью "
+                                width="370" />
+                        </div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">Проект LAB
+                            </h2>
+                            <p class="p-gallery">Маркетинг</p>
+                        </div>
+                    </li>
+                    <li class="card-portf list ">
+                        <div class="card-thumb-p"><img src="./images/portfolio/img-9-min.jpg"
+                                alt="Ноутбук с презентацией Growing Business на дисплее и две кисти рук на клавиатуре"
+                                width="370" />
+                        </div>
+                        <div class="card-text-gal">
+                            <h2 class="gallery link">
+                                Growing Business
+                            </h2>
+                            <p class="p-gallery">Приложение</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
-
     </main>
 
     <footer class="footer-adress">
-        <a href="./index.html" class="logo logo-footer link"><span class="accent">Web</span>Studio
-        </a>
-        <address>
-            <ul class="footer-list-adress">
-                <li class="footer-map list "><a href=https://goo.gl/maps/AJ7KhFhHxw4ANXPTA target="_blank "
-                        rel="nofollow noopener noreferrer" class="footer-item map list link">г.
-                        Киев, пр-т Леси Украинки, 26</a></li>
-                <li class="footer-email list "><a href="mailto:exampe@gmai.com"
-                        class="footer-item-contact list link">exampe@gmai.com</a>
-                </li>
-                <li class="footer-tel list "><a href="+380687131111"
-                        class="footer-item-contact list link">+380687131111</a>
-                </li>
-            </ul>
-        </address>
+        <div class="containers">
+            <a href="./index.html" class="logo logo-footer link"><span class="accent">Web</span>Studio
+            </a>
+            <address class="address">
+                <ul class="footer-list-adress">
+                    <li class="footer-map list "><a href=https://goo.gl/maps/AJ7KhFhHxw4ANXPTA target="_blank "
+                            rel="nofollow noopener noreferrer" class="footer-item map list link">г.
+                            Киев, пр-т Леси Украинки, 26</a></li>
+                    <li class="footer-email list "><a href="mailto:exampe@gmai.com"
+                            class="footer-item-contact list link">exampe@gmai.com</a>
+                    </li>
+                    <li class="footer-tel list "><a href="+380687131111"
+                            class="footer-item-contact list link">+380687131111</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
+
 
 
 
