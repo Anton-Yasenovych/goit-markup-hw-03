@@ -348,7 +348,7 @@ color: var(--main-title-color);
 display: flex;
 justify-content:center;
 }
-.btn {
+.item-btn  {
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
@@ -368,8 +368,10 @@ margin-left: 8px;
 }
 .btn:hover,
 .btn:focus {
-  background-color: var(--color-hover-focus);
-  color: var(--secundary-text);
+ background: var(--color-hover-focus);
+box-shadow: var(--box-shadow);
+border-radius: var(--border-radius-4);
+color: var(--secundary-text);
 }
 .portf-buttons .prtf-1.default {
   color: var(--secundary-text);
