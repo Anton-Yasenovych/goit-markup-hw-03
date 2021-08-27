@@ -442,8 +442,7 @@ margin-top: var(--margin-t-footer-cont-9);
   color: var(--secundary-text);
 }
 .logo-footer, .logoftr {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-left: 0;
-  color: var(--secundary-text);
+padding: 0;
+margin: 0;
+color: var(--secundary-text);
 }
